@@ -6,8 +6,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: #d1d5d9;
+}
+
 nav {
-  background-color: #fe4e30;
+  background-color: #f4f3f3;
   min-height: 60px;
   display: flex;
 }
@@ -39,13 +43,26 @@ nav ul li {
 }
 
 nav a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
 nav a.active {
-  color: #ffffff;
   font-weight: 700;
+}
+
+.btn-contact-me {
+  background-color: #008080;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 24px;
+  border: none;
+}
+.btn-contact-me:hover {
+  background-color: #005858;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 .container {
@@ -54,6 +71,7 @@ nav a.active {
   border-radius: 4px;
   padding: 50px 40px;
   display: flex;
+  background-color: #fff;
 }
 
 /* Left */
@@ -75,7 +93,7 @@ nav a.active {
   border-radius: 24px;
   color: #fff;
   font-size: 16px;
-  padding: 8px 30px;
+  padding: 6px 30px;
   margin-top: 20px;
   margin-right: 20px;
   border: none;
@@ -83,10 +101,8 @@ nav a.active {
 
 .btn-contact:hover {
   background-color: #005858;
-  border-radius: 24px;
   cursor: pointer;
   font-size: 16px;
-  padding: 8px 30px;
 }
 
 a {
@@ -151,13 +167,12 @@ textarea {
 }
 
 input[type="submit"] {
-  width: 100%;
-  background-color: #fe4e30;
+  background-color: #008080;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 6px 24px;
   border: none;
-  border-radius: 4px;
+  margin-top: 20px;
+  border-radius: 20px;
   cursor: pointer;
 }
 
